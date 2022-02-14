@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="util.js"></script>
+</head>
+<body>
+<h1 id="test">DOM 객체를 찾자</h1>
+<h1>그래 DOM 객체를 찾자</h1>
+<hr>
+<script>
+var dom = document.getElementsByTagName("h1");
+console.log(dom);
+console.log(dom.length);
+console.log(dom[0]);
+console.log(dom[0].textContent); // innerText
+console.log(dom[0].innerHTML);
+console.log(dom[1]);
+console.log(dom[1].textContent); // innerText
+console.log(dom[1].innerHTML);
+console.log("------------------------------")
+dom = document.getElementById("test");
+console.log(dom);
+console.log(dom.textContent);
+window.setTimeout(function() {
+	dom.innerHTML = "오늘은 월요일";
+	dom.style.color ="red";
+	dom.style.backgroundColor ="lime";
+}, 5000);
+</script>
+</body>
+</html>

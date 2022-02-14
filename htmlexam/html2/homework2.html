@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        header{
+            background-image:linear-gradient(to bottom right,yellow,orange,pink);
+            width:100%;
+            text-align:center;
+            vertical-align:middle;
+            margin:10px;
+        }
+        h1{
+            color:magenta;
+            text-shadow:2px 2px 4px white;
+        }
+        h2{
+            margin:10px;
+            font-weight:bold;
+        }
+        #i2{
+            color:green;
+        }
+        #i3{
+            color:gold;
+        }
+        a{
+            text-decoration:None;
+            margin:40px;
+        }
+        a:hover{
+            font-weight:bold;
+        }
+        article{
+            width:70%;
+
+            border-radius:15px;
+            border:2px dotted red;
+            margin:20px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        table,th,td{
+            border:2px solid #006600;
+            border-collapse:collapse;
+            margin:10px;
+        }
+        th{
+            background-color:lime;
+
+        }
+        .c1{
+            color:brown;
+        }
+        .t1{
+            margin:10px;
+        }
+        figure{
+            text-align:center;
+        }
+        img:hover{
+            opacity:0.5;
+        }
+        aside{
+            text-align:center;
+        }
+        footer{
+            background-color:#4d4d4d;
+            color:white;
+            text-align:center;
+            height:70px;
+            line-height:70px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML5 학습</h1><br>
+        <nav>
+            <a href="https://www.w3.org/">W3C</a>
+            <a href="https://www.w3schools.com/">W3SCHOOLS</a>
+            <a href="https://jquery.com/">jQuery</a></nav>
+        <br>
+    </header>
+    <section>
+        <article>
+        <h2 id="i2">나의 소개</h2>
+            <ul>
+                <li>이름: 김주영</li>
+                <li>나이: 26</li>
+                <li>취미: 게임</li>
+            </ul>
+        </article>
+        <article>
+            <h2 id="i3">자주 하는 게임</h2>
+            <table>
+                <tr><th>이름</th><th>장르</th></tr>
+                <tr><td>리그오브레전드</td><td>AOS</td></tr>
+                <tr><td>로스트아크</td><td>MMORPG</td></tr>
+            </table>
+        </article>
+        <article>
+            <h2>자랑하고싶은 <span class="c1">우리동네</span>의 아름다운 곳</h2>
+            <span class="t1">공원안에 있는 공간</span>
+
+            <br>
+            <!--<img src="../images/island.jpg"><br>-->
+            <figure>
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCE
+    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
+    dfldl4WLD6GdCj07tK6VW/
+    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"><br>
+                <figcaption>올림픽공원</figcaption>
+            </figure>
+        </article>
+        <br>
+    </section>
+    <aside>
+        <iframe width="445" height="334" src="https://www.youtube.com/embed/0H8PR0NEQUE"
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </aside>
+    <footer>
+        <em>이 문서는 김주영에 의해 HTML5와 CSS3 기술을 사용하여 2022년 2월 7일에 작성하였습니다</em>
+    </footer>
+</body>
+</html>
