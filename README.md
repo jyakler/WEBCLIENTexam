@@ -50,3 +50,11 @@ CSS
 ## 사이트이동
 	location.href=url;
 	
+***
+## 날싸 출력
+	var d=new Date();
+	d==Tue Feb 15 2022 09:18:09 GMT+0900 (한국 표준시)
+	d.toLocaleString()==2022. 2. 15. 오전 9:18:09
+	d.getFullYear();
+	d.getFullMonth();
+		...
