@@ -56,5 +56,7 @@ CSS
 	d==Tue Feb 15 2022 09:18:09 GMT+0900 (한국 표준시)
 	d.toLocaleString()==2022. 2. 15. 오전 9:18:09
 	d.getFullYear();
-	d.getFullMonth();
+	d.getMonth();
+	d.getDate();
+	d.getDay(); // 0 : 일요일
 		...
