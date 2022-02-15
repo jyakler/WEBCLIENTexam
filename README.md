@@ -45,3 +45,8 @@ CSS
 	dom객체.onxxx = 함수
   3. 표준 이벤트 모델
   dom객체.addEventListener("xxx", 함수)
+		
+***
+## 사이트이동
+	location.href=url;
+	
