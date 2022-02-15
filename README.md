@@ -32,7 +32,7 @@ CSS
         
 ***
 ## DOM 객체 찾기
-      document.getElementsByTagName("태그명")  --> Element 객체들을 저장한 유사 배열 객체
+      document.getElementsByTagName("태그명")[index]  --> Element 객체들을 저장한 유사 배열 객체
       document.getElementById("id속성값")  --> Element 객체 또는 null
  
       document.querySelector("찾으려는태그의 CSS선택자")  --> Element 객체 또는 null  (이때 id값이면 앞에 #을 붙여야함 ex. <h1> -> "h1"  /  <h1 id="t1"> -> "#t1")
