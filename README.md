@@ -87,3 +87,8 @@ Ajax 사용시- page이동 일어나지 않음
 AJAX 통신에 대한 응답이 왔을때 수행하려는 기능 구현
 		
 일반 텍스트, XML, HTML,JSON, img, ... 에따라 구현방법이 달라짐
+
+		변수.responseText사용 
+		json일경우 JSON.parse() API사용해서 javascript객체로 생성
+		
+		한글이 들어갈경우 JsonResponse(...),json_dumps_params={'ensure_ascii':False} 해주어야 안깨짐
