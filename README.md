@@ -70,3 +70,16 @@ CSS
 		4. 자바스크립트 코드(location.href)
 
 Ajax 사용시- page이동 일어나지 않음
+		
+	  - 데이터 전송량 절약가능-> 모바일에 더욱 적합
+		
+####구현방법
+	
+		1. XMLHttpRequest 객체 생성
+			- let 변수 = new XMLHttpRequest();
+		2. AJAX기술로 서버에 요청하고 응답왔을때 수행할 코드를 함수로 만들어 load핸들러에 등록
+			- 변수.onload = 함수등록;
+		3. AJAX로 요청하려는 서버프로그램의 URL을 가지고 정보를 작성 
+			- 변수.open('요청방식', 'URL', true);  //asynchoronous면 true 아니면 false
+		4. AJAX요청을 서버에 보냄
+			- 변수.send()
