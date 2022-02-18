@@ -73,7 +73,7 @@ Ajax 사용시- page이동 일어나지 않음
 		
 	  - 데이터 전송량 절약가능-> 모바일에 더욱 적합
 		
-####구현방법
+### 구현방법
 	
 		1. XMLHttpRequest 객체 생성
 			- let 변수 = new XMLHttpRequest();
@@ -83,3 +83,7 @@ Ajax 사용시- page이동 일어나지 않음
 			- 변수.open('요청방식', 'URL', true);  //asynchoronous면 true 아니면 false
 		4. AJAX요청을 서버에 보냄
 			- 변수.send();
+#### [함수구현]
+AJAX 통신에 대한 응답이 왔을때 수행하려는 기능 구현
+		
+일반 텍스트, XML, HTML,JSON, img, ... 에따라 구현방법이 달라짐
