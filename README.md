@@ -82,4 +82,4 @@ Ajax 사용시- page이동 일어나지 않음
 		3. AJAX로 요청하려는 서버프로그램의 URL을 가지고 정보를 작성 
 			- 변수.open('요청방식', 'URL', true);  //asynchoronous면 true 아니면 false
 		4. AJAX요청을 서버에 보냄
-			- 변수.send()
+			- 변수.send();
